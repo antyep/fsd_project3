@@ -17,13 +17,22 @@ a:hover, a:active { text-decoration: none; color:black }
 .title {
 	display: flex;
 	justify-content: center;
-	flex: center;
 	align-items: center;
-	font-size: 5rem;
+	font-size: 6rem;
+	padding: 2.5rem;
+	letter-spacing: 0.6px;
 }
 
+.span{
+	display: inline;
+	justify-content: center;
+	flex-direction: center;
+	align-items: center;
+}
+
+
 .first-m {
-	background-color: green;
+	background-color: beige;
 }
 
 .second-m {
@@ -35,6 +44,47 @@ a:hover, a:active { text-decoration: none; color:black }
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+}
+
+
+.button {
+	display: flex;
+	justify-content: center;
+	flex-direction: center;
+	align-items: center;
+  	background-color: #fbeee0;
+  	border: 2px solid #422800;
+  	border-radius: 30px;
+  	box-shadow: #422800 4px 4px 0 0;
+  	color: #422800;
+  	cursor: pointer;
+  	display: inline-block;
+ 	font-weight: 600;
+  	font-size: 23px;
+  	padding: 0 18px;
+  	line-height: 50px;
+  	text-align: center;
+  	text-decoration: none;
+  	user-select: none;
+  	-webkit-user-select: none;
+  	touch-action: manipulation;
+	margin-left: 1.5rem;
+}
+
+.button:hover {
+  background-color: #fff;
+}
+
+.button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
 }
 
 .choose-difficulty {
@@ -54,29 +104,47 @@ a:hover, a:active { text-decoration: none; color:black }
 }
 
 .difficulty_button {
-	margin-top: 25px;
-	margin-left: 12px;
-	font-size: 25px;
-	border-radius: 25% 25% 25% 25%;
-}
-
-.button {
 	display: flex;
 	justify-content: center;
 	flex-direction: center;
 	align-items: center;
-	margin-top: 10px;
-	padding: 12.5px;
-	font-size: 50px;
-	border: 5px solid black;
-	background-color: #DBFCFF;
-	cursor: pointer;
+  	background-color: #fbeee0;
+  	border: 2px solid #422800;
+  	border-radius: 30px;
+  	box-shadow: #422800 4px 4px 0 0;
+  	color: #422800;
+  	cursor: pointer;
+  	display: inline-block;
+ 	font-weight: 600;
+  	font-size: 23px;
+  	padding: 0 18px;
+  	line-height: 50px;
+  	text-align: center;
+  	text-decoration: none;
+  	user-select: none;
+  	-webkit-user-select: none;
+  	touch-action: manipulation;
+	margin-left: 1.5rem;
+	margin-top: 30px;
 }
 
-.button:hover{
-	transition: 1s;
-	background-color: beige;
-}
+.difficulty_button:hover {
+	background-color: #fff;
+  }
+  
+  .difficulty_button:active {
+	box-shadow: #422800 2px 2px 0 0;
+	transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+	.difficulty_button {
+	  min-width: 120px;
+	  padding: 0 25px;
+	}
+  }
+  
+
 
 .visible {
 	display: initial;
