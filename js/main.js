@@ -167,7 +167,7 @@ window.addEventListener("DOMContentLoaded", () => {
 		if (submitButton) {
 			submitButton.addEventListener('click', () => {
 				const currentSelection = getCurrentSelection()
-				if (Object.keys(currentSelection).length < maxLength) return alert('te faltan colores bobo')
+				if (Object.keys(currentSelection).length < maxLength) return alert('You are missing colors.')
 
 				currentTries.push(currentSelection)
 				sessionStorage.setItem(SESSION_KEYS.CURRENT_TRIES, JSON.stringify(currentTries))
@@ -244,7 +244,7 @@ window.addEventListener("DOMContentLoaded", () => {
 				difficultyElem.classList.add('difficulty_button')
 				difficultyElem.addEventListener('click', () => {
 					let userName = sessionStorage.getItem(SESSION_KEYS.USERNAME);
-					if (userName === '') return alert('Enter a username')
+					if (userName === '') return alert('Enter a username.')
 
 					sessionStorage.setItem(SESSION_KEYS.DIFFICULTY, difficulty)
 					sessionStorage.setItem(SESSION_KEYS.SECRET_COMBINATION, JSON.stringify(generateRandomCombination()))

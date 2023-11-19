@@ -13,6 +13,7 @@ a:link { text-decoration: none; }
 a:focus { text-decoration: none; color:yellow; }
 a:hover, a:active { text-decoration: none; color:black }
 
+/* index design */
 
 .title {
 	display: flex;
@@ -87,12 +88,35 @@ a:hover, a:active { text-decoration: none; color:black }
   }
 }
 
+/* difficulty design */
+
+.username-text{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	font-size: 50px;
+	bottom: 24rem;
+}
+
+.username-chart{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	bottom: 240rem;
+
+}
+
 .choose-difficulty {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 15px;
+	margin-top: 50px;
 	font-size: 50px;
 }
 
@@ -144,7 +168,7 @@ a:hover, a:active { text-decoration: none; color:black }
 	}
   }
   
-
+/* color picker */
 
 .visible {
 	display: initial;
@@ -181,4 +205,21 @@ a:hover, a:active { text-decoration: none; color:black }
 .exists {
 	background-color: white;
 
+}
+
+.about-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 25rem;
+	padding-bottom: 1rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	background-color: beige;
+	font-size: 16px;
+}
+
+.back-button {
+	padding-top: 25px;
+	font-size: 25px;
 }
