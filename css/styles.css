@@ -168,7 +168,7 @@ a:hover, a:active { text-decoration: none; color:black }
 	}
   }
   
-/* color picker */
+/* color picker and board*/
 
 .visible {
 	display: initial;
@@ -248,15 +248,31 @@ a:hover, a:active { text-decoration: none; color:black }
 	font-size: 40px;
 }
 
+/* rematch screens and buttons */
+
 .lose-screen {
 	position: static;
 	display: absolute;
 	justify-content: center;
 	align-items: center;
+	margin-left: 35rem;
 	font-size: 30px;
 	bottom: 25px;
 	letter-spacing: 0.6px;
-	margin-left: 35rem;
+}
+
+.win-screen {
+	position: relative;
+	display: absolute;
+	justify-content: center;
+	align-items: center;
+	bottom: 25px;
+	font-size: 30px;
+	letter-spacing: 0.6px;
+}
+
+.rematch-buttons {
+
 }
 
 .rematch-buttons {
@@ -264,5 +280,6 @@ a:hover, a:active { text-decoration: none; color:black }
 	flex-direction: center;
 	justify-content: center;
 	align-items: center;
-	margin-right: 5rem;
+	margin-top: 25px;
+	margin-right: 70px;
 }
