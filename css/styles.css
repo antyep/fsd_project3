@@ -1,0 +1,116 @@
+html *
+{
+   color: #001427 !important;
+   font-family: Arial !important;
+}
+
+body {
+	background-color: #DBFCFF;
+}
+
+.a { color:black }
+a:link { text-decoration: none; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:black }
+
+
+.title {
+	display: flex;
+	justify-content: center;
+	flex: center;
+	align-items: center;
+	font-size: 5rem;
+}
+
+.first-m {
+	background-color: green;
+}
+
+.second-m {
+	background-color: beige;
+}
+
+.screen {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.choose-difficulty {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 15px;
+	font-size: 50px;
+}
+
+.difficultiesContainer{
+	display: flex;
+	flex-direction: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.difficulty_button {
+	margin-top: 25px;
+	margin-left: 12px;
+	font-size: 25px;
+	border-radius: 25% 25% 25% 25%;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	flex-direction: center;
+	align-items: center;
+	margin-top: 10px;
+	padding: 12.5px;
+	font-size: 50px;
+	border: 5px solid black;
+	background-color: #DBFCFF;
+	cursor: pointer;
+}
+
+.button:hover{
+	transition: 1s;
+	background-color: beige;
+}
+
+.visible {
+	display: initial;
+}
+
+.colorPicker {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border: 1px solid black;
+	margin-right: 10px;
+}
+
+.rowContainer {
+	margin-bottom: 10px;
+}
+.hintContainer {
+	display: flex;
+	padding-left: 10px;
+}
+.hint {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	border: 1px solid gray;
+	background-color: black;
+	margin-right: 25px;
+}
+
+.match {
+	background-color: green;
+
+}
+.exists {
+	background-color: white;
+
+}
