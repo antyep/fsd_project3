@@ -223,3 +223,46 @@ a:hover, a:active { text-decoration: none; color:black }
 	padding-top: 25px;
 	font-size: 25px;
 }
+
+.tries-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: center;
+}
+
+.board-m1 {
+	background-color: beige;
+}
+
+.board-m2 {
+    background-color: beige;
+}
+
+.board-title {
+	font-size: 29px;
+	letter-spacing: 0.6px;
+}
+
+.colorpicker-text {
+	font-size: 40px;
+}
+
+.lose-screen {
+	position: static;
+	display: absolute;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	bottom: 25px;
+	letter-spacing: 0.6px;
+	margin-left: 35rem;
+}
+
+.rematch-buttons {
+	display: flex;
+	flex-direction: center;
+	justify-content: center;
+	align-items: center;
+	margin-right: 5rem;
+}
